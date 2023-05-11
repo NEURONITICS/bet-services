@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Glory&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --body-text-color: #505050;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Bebas Neue', cursive;
+  margin: 0;
+  padding: 0;
+  background: white;
+}
+
+@layer components {
+  .container {
+    @apply w-full  px-[16px]  lg:px-[50px] 2xl:px-[96px];
+  }
+}
