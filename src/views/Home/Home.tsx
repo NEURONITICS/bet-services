@@ -12,7 +12,7 @@ const Home = () => {
 
   const handleClick = () => {
     logEvent('Button', 'Click');
-    router.push('https://www.google.com')
+    router.push('https://www.bbc.com')
   };
 
   return (
