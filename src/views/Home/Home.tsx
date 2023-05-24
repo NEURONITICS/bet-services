@@ -27,7 +27,7 @@ const Home = () => {
           <div className="flex flex-col items-center justify-center">
             <a href="https://google.com">
             <div onClick={handleClick} className="py-[36px] lg:py-[48px]"><Button text={ButtonText} /></div>
-            <Image src="/icons/glob-icon.svg" alt="global icon" width={80} height={80} className="w-[60] h-[60] lg:w-[80px] lg:h-[80px] lg:mt-[12px]" />
+            <center></center><Image src="/icons/glob-icon.svg" alt="global icon" width={80} height={80} className="w-[60] h-[60] lg:w-[80px] lg:h-[80px] lg:mt-[12px]" /></center>
             </a>
           </div>
         </div>
