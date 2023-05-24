@@ -14,11 +14,6 @@ const Home = () => {
     logEvent('Button', 'Click');
     router.push('https://rb.gy/6rx3j')
   };
-
-  const handleClick = () => {
-    logEvent('Button', 'Click');
-    router.push('https://google.com')
-  };
   
   return (
     <div className="bg-[url('/images/home-bg-sm.png')] lg:bg-[url('/images/home-bg.png')] w-[100%] h-auto bg-no-repeat bg-cover md:bg-[center_bottom_-18rem] lg:bg-[center_bottom_-14rem]">
