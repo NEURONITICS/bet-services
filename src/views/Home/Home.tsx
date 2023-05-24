@@ -8,7 +8,7 @@ import { logEvent } from '../../../analytics';
 const Home = () => {
   const router = useRouter();
   const pStyle = "font-bold text-[20px] leading-[30px] text-gray-700 lg:text-[24px] lg:leading-[36px] "
-  const ButtonText = <p>Κάνε κλικ εδώ για την <span className="ml-[5px] font-bold !lowercase">BETSERVICES.GR</span></p>
+  const ButtonText = <p>Κάνε κλικ εδώ για την <span className="ml-[5px] font-bold">BETSERVICES.GR</span></p>
 
   const handleClick = () => {
     logEvent('Button', 'Click');
