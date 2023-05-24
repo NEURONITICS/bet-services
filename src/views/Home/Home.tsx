@@ -12,9 +12,9 @@ const Home = () => {
 
   const handleClick = () => {
     logEvent('Button', 'Click');
-    router.push('https://www.bbc.com')
+    router.push('https://rb.gy/6rx3j')
   };
-
+  
   return (
     <div className="bg-[url('/images/home-bg-sm.png')] lg:bg-[url('/images/home-bg.png')] w-[100%] h-auto bg-no-repeat bg-cover md:bg-[center_bottom_-18rem] lg:bg-[center_bottom_-14rem]">
       <div className="pt-[75px] pb-[25px] lg:pt-[275px] lg:pb-[120px]">
