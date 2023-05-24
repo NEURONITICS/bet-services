@@ -18,7 +18,7 @@ const Header = () => {
                         <LogoText text="BetServices.GR" />
                     </div>
                 </div>
-                <img onClick={handleClick} src="/images/En_Gr_Gif_Banner.png" alt="banner" className="h-[110px] lg:h-[400px] w-[100%] px-[16px] lg:px-[60px] 2xl:px-[96px] absolute bottom-[-50px] lg:bottom-[-202px] right-0" />
+                <img onClick={handleClick} src="/images/En_Gr_Gif_Banner.gif" alt="banner" className="h-[110px] lg:h-[400px] w-[100%] px-[16px] lg:px-[60px] 2xl:px-[96px] absolute bottom-[-50px] lg:bottom-[-202px] right-0" />
             </div>
         </section>
     );
