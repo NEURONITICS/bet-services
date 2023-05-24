@@ -21,7 +21,7 @@ const Home = () => {
         <div className="max-w-[343px] lg:max-w-[540px] h-auto mx-auto container">
           <div className="flex flex-col items-center gap-[8px] text-center">
             <Image onClick={handleClick} src="/icons/fonbet.svg" alt="logo" width={280} height={280} className="w-[130px] h-[130px] lg:w-[280px] lg:h-[280px]" />
-            <p className={classNames(`${pStyle}`, 'mt-[8px] lg:mt-[16px] w-[328px] lg:w-[540px]')}>Παίξε υπεύθυνα στην αγαπημένη σου διαδικτυακή στοιχηματική πλατφόρμα.</p>
+            <p className={classNames(`${pStyle}`, 'mt-[8px] lg:mt-[16px] w-[328px] lg:w-[540px]')}>Παίξε υπεύθυνα στην αγαπημένη σου διαδικτυακή ΣΤΟΙΧΗΜΑΤΙΚΉ και LIVE CASINO πλατφόρμα.</p>
             <p className={classNames(`${pStyle}`)}>Ξεκίνα τώρα!</p>
           </div>
           <div className="flex flex-col items-center">
