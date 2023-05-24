@@ -15,7 +15,7 @@ const Footer = () => {
                     </div>
                 ))}
             </div>
-            <p className='font-medium font-secondary text-[12px] leading-[18px] tracking-[-2%] text-center text-white  mt-[16px] lg:mt-[40px] lg:text-[14px] lg:leading-[15.68px]'>Copyright © <a className='text-primary' href=''>BETSERVICES.GR</a>  2023 All right reserved</p>
+            <p className='font-medium font-secondary text-[12px] leading-[18px] tracking-[-2%] text-center text-white  mt-[16px] lg:mt-[40px] lg:text-[14px] lg:leading-[15.68px]'>Copyright © <a className='text-primary' href=''>BETSERVICES.GR</a>  2023 All Rights Reserved</p>
         </div>
     );
 };
