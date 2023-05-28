@@ -7,7 +7,7 @@ const Header = () => {
     const router = useRouter();
     const handleClick = () => {
         logEvent('Button', 'Click');
-        router.push('https://rb.gy/6rx3j')
+        router.push('https://rb.gy/2uzr8')       
     };
     return (
         <section>
