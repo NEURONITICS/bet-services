@@ -14,7 +14,11 @@ const Home = () => {
     logEvent('Button', 'Click');
     router.push('https://rb.gy/6rx3j')
   };
-  
+  const handleGlovClick = () => {
+    logEvent('Button', 'Click');
+    router.push('https:www.google.com')
+  };
+
   return (
     <div className="bg-[url('/images/home-bg-sm.png')] lg:bg-[url('/images/home-bg.png')] w-[100%] h-auto bg-no-repeat bg-cover md:bg-[center_bottom_-18rem] lg:bg-[center_bottom_-14rem]">
       <div className="pt-[75px] pb-[25px] lg:pt-[275px] lg:pb-[120px]">
@@ -26,8 +30,8 @@ const Home = () => {
           </div>
           <div className="flex flex-col items-center justify-center">
             <div onClick={handleClick} className="py-[36px] lg:py-[48px]"><Button text={ButtonText} /></div>
-            <Image src="/icons/glob-icon.svg" alt="global icon" width={80} height={80} className="w-[60] h-[60] lg:w-[80px] lg:h-[80px] lg:mt-[12px]" />
-            </div>
+            <Image onClick={handleGlovClick} src="/icons/glob-icon.svg" alt="global icon" width={80} height={80} className="w-[60] h-[60] lg:w-[80px] lg:h-[80px] lg:mt-[12px] cursor-pointer" />
+          </div>
         </div>
       </div>
     </div>
