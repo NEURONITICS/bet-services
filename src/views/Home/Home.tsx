@@ -8,15 +8,15 @@ import { logEvent } from '../../../analytics';
 const Home = () => {
   const router = useRouter();
   const pStyle = "font-bold text-[20px] leading-[30px] text-gray-700 lg:text-[24px] lg:leading-[36px] "
-  const ButtonText = <p>3πλο δώρο<span className="ml-[5px] font-bold">εδώ*</span></p>
+  const ButtonText = <p>Προσφορά χωρις<span className="ml-[5px] font-bold">κατάθεση</span></p>
 
   const handleClick = () => {
     logEvent('Button', 'Click');
-    router.push('https://rb.gy/6rx3j')
+    router.push('https://rb.gy/2uzr8')
   };
   const handleGlovClick = () => {
     logEvent('Button', 'Click');
-    router.push('https:www.google.com')
+    router.push('https://rb.gy/2uzr8')
   };
 
   return (
